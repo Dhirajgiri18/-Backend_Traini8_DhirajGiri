@@ -30,11 +30,11 @@ This is an MVP for a registry of Government-funded Training Centers built with S
    
    properties
    
-   `spring.datasource.url=jdbc:mysql://localhost:3306/traini8_db
+   ```spring.datasource.url=jdbc:mysql://localhost:3306/traini8_db
    spring.datasource.username=root
    spring.datasource.password=root_password
    spring.jpa.hibernate.ddl-auto=update
-   spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect`
+   spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect```
    
    Ensure that the username (root) and password (root_password) match your MySQL credentials.
 
@@ -47,4 +47,5 @@ This is an MVP for a registry of Government-funded Training Centers built with S
 6. Run the Application
 
    To run the application, execute:
+
    `./mvnw spring-boot:run`
