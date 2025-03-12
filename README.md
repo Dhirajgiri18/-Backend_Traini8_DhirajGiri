@@ -10,16 +10,19 @@ This is an MVP for a registry of Government-funded Training Centers built with S
 
 ## Setup Instructions
 
-1. **Clone the Repository**
+### 1. Clone the Repository
 
-   ```git clone https://github.com/Dhirajgiri18/-Backend_Traini8_DhirajGiri.git```
+   Clone the project to your local machine:
+
+   `git clone https://github.com/Dhirajgiri18/-Backend_Traini8_DhirajGiri.git`
+
 
 2. **Configure Database**
    
    Ensure that MySQL is installed and running on your machine.
    Create a database called traini8_db or modify the name in the configuration file.
-   ```
-   CREATE DATABASE traini8_db;```
+
+   `CREATE DATABASE traini8_db;`
 
 4. **Configure Database Connection**
 
@@ -32,12 +35,12 @@ This is an MVP for a registry of Government-funded Training Centers built with S
    spring.datasource.username=root
    spring.datasource.password=root_password
    spring.jpa.hibernate.ddl-auto=update
-   spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect```
+   spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
 5. **Build the Project**
 
-   ```mvn clean install```
+   `mvn clean install`
 
 6. Run the Application
 
-   ```./mvnw spring-boot:run```
+   `./mvnw spring-boot:run`
