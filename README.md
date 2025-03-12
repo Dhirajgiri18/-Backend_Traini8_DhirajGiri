@@ -29,19 +29,22 @@ This is an MVP for a registry of Government-funded Training Centers built with S
    Edit the src/main/resources/application.properties file with your MySQL configuration. The default configuration is as follows:
    
    properties
+   
    `spring.datasource.url=jdbc:mysql://localhost:3306/traini8_db
    spring.datasource.username=root
    spring.datasource.password=root_password
    spring.jpa.hibernate.ddl-auto=update
    spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect`
+   
    Ensure that the username (root) and password (root_password) match your MySQL credentials.
 
-4. **Build the Project**
+5. **Build the Project**
 
    Navigate to the project directory and run the following Maven command to build the project:
 
    `mvn clean install`
 
-5. Run the Application
+6. Run the Application
 
-   To run the application, execute: `./mvnw spring-boot:run`
+   To run the application, execute:
+   `./mvnw spring-boot:run`
